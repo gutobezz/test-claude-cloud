@@ -1,0 +1,12 @@
+.bar { display: flex; align-items: flex-end; gap: 10px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 12px; transition: border-color 0.15s; }
+.bar:focus-within { border-color: var(--accent); }
+.textarea { flex: 1; background: transparent; border: none; outline: none; color: var(--text-primary); font-family: inherit; font-size: 0.92rem; line-height: 1.6; resize: none; min-height: 24px; max-height: 200px; overflow-y: auto; }
+.textarea::placeholder { color: var(--text-secondary); }
+.textarea:disabled { opacity: 0.6; cursor: not-allowed; }
+.actions { display: flex; align-items: center; flex-shrink: 0; }
+.btn { width: 36px; height: 36px; border-radius: 10px; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.15s; }
+.sendBtn { background: var(--accent); color: #fff; }
+.sendBtn:hover:not(:disabled) { background: var(--accent-hover); transform: scale(1.05); }
+.sendBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+.stopBtn { background: #ff4d4f22; color: #ff7875; border: 1px solid #ff4d4f44; }
+.stopBtn:hover { background: #ff4d4f44; }
