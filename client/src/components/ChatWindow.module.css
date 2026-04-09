@@ -1,0 +1,5 @@
+.window { flex: 1; overflow-y: auto; scroll-behavior: smooth; }
+.window::-webkit-scrollbar { width: 6px; }
+.window::-webkit-scrollbar-track { background: transparent; }
+.window::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.list { display: flex; flex-direction: column; gap: 4px; padding: 24px 16px 12px; }
